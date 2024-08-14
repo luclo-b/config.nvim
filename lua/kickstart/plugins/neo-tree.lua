@@ -21,5 +21,22 @@ return {
         },
       },
     },
+    default_component_configs = {
+      git_status = {
+        symbols = {
+          -- Change type
+          added = '✚',
+          deleted = '✖',
+          modified = '',
+          renamed = '󰁕',
+          -- Status type
+          untracked = 'U',
+          ignored = '',
+          unstaged = 'M',
+          staged = 'S',
+          conflict = '',
+        },
+      },
+    },
   },
 }
